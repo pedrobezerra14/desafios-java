@@ -43,6 +43,6 @@ public class Turma {
     }
 
     public String toString() {
-        return "+++ Turma: " + nome + " +++ Sala: " + sala + " +++ Horário: " + horario + " +++ Tipo: " + tipo + " +++ Professor: " + professor + " +++";
+        return "+++ Turma: " + codigo + " +++ Nome: " + nome + " +++ Sala: " + sala + " +++ Horário: " + horario + " +++ Tipo: " + tipo + " +++ Professor: " + professor + " +++";
     }
 }
