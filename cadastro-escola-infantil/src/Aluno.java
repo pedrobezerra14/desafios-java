@@ -1,10 +1,10 @@
 public class Aluno {
     private String nome;
-    private int matricula;
+    private String matricula;
     private String dataNascimento;
     private String nomeMae;
 
-    public Aluno(String nome, int matricula, String dataNascimento, String nomeMae) {
+    public Aluno(String nome, String matricula, String dataNascimento, String nomeMae) {
         this.nome = nome;
         this.matricula = matricula;
         this.dataNascimento = dataNascimento;

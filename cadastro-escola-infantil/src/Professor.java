@@ -1,10 +1,10 @@
 public class Professor {
     private String nome;
-    private int matricula;
+    private String matricula;
     private String grauInstrucao;
     private double salarioBase;
 
-    public Professor(String nome, int matricula, String grauInstrucao, double salarioBase) {
+    public Professor(String nome, String matricula, String grauInstrucao, double salarioBase) {
         this.nome = nome;
         this.matricula = matricula;
         this.grauInstrucao = grauInstrucao;
