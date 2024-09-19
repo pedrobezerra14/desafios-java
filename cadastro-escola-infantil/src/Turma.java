@@ -7,7 +7,7 @@ public class Turma {
     private String horario;
     private String tipo;
 
-    private ArrayList <Aluno> alunosTurma = new ArrayList<>();
+    private ArrayList <Aluno> alunos = new ArrayList<>();
     private Professor professor;
     private ArrayList <String> materiais = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class Turma {
     }
 
     public void addAluno(Aluno aluno) {
-        alunosTurma.add(aluno);
+        alunos.add(aluno);
     }
 
     public void addMaterial(String material) {
@@ -29,14 +29,14 @@ public class Turma {
     }
 
     public void listarAlunos(){
-        System.out.println("+++ Alunos: " + nome + " +++");
-        for (Aluno aluno : alunosTurma) {
+        System.out.println("+++ Turma: " + nome + " +++");
+        for (Aluno aluno : alunos) {
             System.out.println(aluno);
         }
     }
 
     public void listarMateriais(){
-        System.out.println("+++ Materiais: " + nome + " +++");
+        System.out.println("+++ Materiais da " + nome + " +++");
         for (String material : materiais) {
             System.out.println(material);
         }
