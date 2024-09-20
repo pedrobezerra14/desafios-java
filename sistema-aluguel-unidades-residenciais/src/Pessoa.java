@@ -19,13 +19,13 @@ public class Pessoa {
             unidades.add(unidade);
             return true;
         } else {
-            System.out.println(nome + "já possui 4 unidades");
+            System.out.println("+++" + nome + "já possui 4 unidades. +++");
             return false;
         }
     }
 
     public void listarUnidades() {
-        System.out.println("Unidades pertencentes a " + nome + ": ");
+        System.out.println("+++ Unidades pertencentes a " + nome + ": ");
         for (UnidadeResidencial unidade : unidades) {
             System.out.println(unidade);
         }
